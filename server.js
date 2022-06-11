@@ -17,6 +17,9 @@ const server = http.createServer((req, res) => {
         case '/team':
             path += 'team.html';
             break;
+        case '/services':
+            path += 'services.html';
+            break;
         default:
             path += '404.html';
             break;
